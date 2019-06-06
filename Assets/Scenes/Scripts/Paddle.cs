@@ -6,6 +6,9 @@ public class Paddle : MonoBehaviour
 {
 
     [SerializeField] float screenWidthUnits = 16f;
+    [SerializeField] float minX = 1f;
+    [SerializeField] float maxX = 15f;
+
 
 
     // Update is called once per frame
